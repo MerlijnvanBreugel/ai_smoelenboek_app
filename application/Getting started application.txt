@@ -1,0 +1,15 @@
+Hi there!
+
+Ready for a challenge?
+Your team is challenged to an application that leverages the built voice recognition and face transform algorithm.
+This application should be shown on the TV at the entrance. 
+
+Align with the other teams to determine how you will connect the different components. 
+
+To reach output within 2.5h, think MVP. What is minimally needed to show a first PoC? 
+In the simplest form, it is just a plotting window in Spyder, but you are probably more ambitious than that!
+
+Rutger recommends a flask or streamlit setup. Also, think whether you need real user interaction or only voice control.
+
+
+

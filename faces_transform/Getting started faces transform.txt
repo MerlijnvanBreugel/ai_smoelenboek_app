@@ -1,0 +1,26 @@
+Hi there!
+
+Ready for a challenge?
+Your team is challenged to build an algorithm that can transform/morph portraits of our colleagues to an art style. 
+As input, it should get detected key words from the speech recognition algorithm. 
+Based on this, it should display the transformation of the correct colleague and artist. 
+
+It is important to align with the application team how the results are shown. 
+
+To give you a head start, I have already prepared images and preprocessed them. Also, the code for the algorithm is finished (and a bit stolen;))
+
+Tasks:
+1. Open the available code: https://colab.research.google.com/drive/1LRyIXqyKLscTLrytG8iPIoR6P5djecN2#scrollTo=JT9Mh7OIKsda 
+	Login to our micompanycolabpro account to use the GPU. Esmée knows how. 
+2. Run the code and connect to the Drive. Data is for now stored in my AIAIAI/Stylegan folder.
+3. The aligned images and generated images are already prepared, containing a subset of our colleagues and artists. That is enough for now.
+	These images are preprocessed to work with stylegan. 
+	Images can also be found in the images folder on git.
+4. Quickly run through the code. In 2. Style Transfer the real magic happens
+	In the final part, a video gif of the style transfer is created. Probably we want to use this for a cool transformation. 
+5. Determine the process how you want to show and transform images. 
+	In the MVP, I suggest to pre-run a number of combintations of transitions that are stored in seperate video gif files.
+6. Build code that uses the input keywords and then displays the right transformation video. 
+	You can use the image_list_specs.xlsx file for key words related to the images.
+
+

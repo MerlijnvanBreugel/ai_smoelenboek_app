@@ -1,0 +1,3 @@
+https://colab.research.google.com/drive/1LRyIXqyKLscTLrytG8iPIoR6P5djecN2#scrollTo=JT9Mh7OIKsda
+
+I know, bad practice! In MVP not needed, but how could we best integrate this code in git?

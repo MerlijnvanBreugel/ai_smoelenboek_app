@@ -1,0 +1,33 @@
+Hi there!
+
+Ready for a challenge?
+Your team is challenged to build a voice recognition algorithm that detects the name of colleagues and artists. 
+This can then be used to trigger a face transform algorithm/step. 
+
+Align with the other teams to determine how you will connect the different components. 
+Tip: pre-define a number of key words that you want to retreive from the speech, which can be fed to the face transform algorithm.
+
+To give you a head start, I have found and tested two working examples using the Google API. 
+
+1. google_api_speech_to_text.py
+Excellent code that performs streaming voice to text. 
+You need an API key. Jesper has the required .json file for this. 
+Use pip install google-cloud-speech to install the google API
+See here for more documentation about the API <https://cloud.google.com/speech-to-text/docs/libraries#windows> 
+
+Note: it is linked to my creditcard;)
+
+2. free_jarvis_speech_to_text.py
+A small AI assistent from https://github.com/diwamishra21/python-voice-assistant
+Package requirements are in a seperate file. 
+Performs less accurate
+
+IMPORTANT
+To use this code, please create a fresh venv in Anaconda. 
+Make sure you have a c++ library, which normally comes with Visual Studio Code
+Then install:
+conda install audio
+
+
+
+
