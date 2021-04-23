@@ -6,6 +6,7 @@ This can then be used to trigger a face transform algorithm/step.
 
 Align with the other teams to determine how you will connect the different components. 
 Tip: pre-define a number of key words that you want to retreive from the speech, which can be fed to the face transform algorithm.
+In the face_transform you can find key words linked to the existing images.
 
 To give you a head start, I have found and tested two working examples using the Google API. 
 
@@ -18,9 +19,13 @@ See here for more documentation about the API <https://cloud.google.com/speech-t
 Note: it is linked to my creditcard;)
 
 2. free_jarvis_speech_to_text.py
-A small AI assistent from https://github.com/diwamishra21/python-voice-assistant
+A small AI assistant from https://github.com/diwamishra21/python-voice-assistant
 Package requirements are in a seperate file. 
-Performs less accurate
+It contains a class with multiple functions, such that it can perform various actions based on the recognized voice command. 
+Plus, it speaks back!
+The voice recognition performance is less accurate, though. 
+
+
 
 IMPORTANT
 To use this code, please create a fresh venv in Anaconda. 
